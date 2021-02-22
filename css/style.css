@@ -1,0 +1,154 @@
+/* Debug */
+
+/* .container {
+    border: 1px solid black;
+}
+
+.row {
+    border: 1px solid rgb(255, 153, 0);
+}
+
+[class*=col] {
+    border: 1px solid blue;
+} */
+
+/* /Debug */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(185,20,80,255);
+}
+
+.row_1 {
+    padding-bottom: 30px;
+}
+
+#section_1 .sub_row_1 {
+    padding-top: 20px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.row_2 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sub_row_1 h4 {
+    font-weight: bold;
+    color: rgba(185,20,80,255);
+}
+
+.sub_row_2 {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.sub_row_2 input {
+    margin-left: 25%;
+    padding: 10px 0;
+    border: 1px solid rgba(185,20,80,255);
+    border-radius: 5px;
+}
+
+.sub_row_2 select {
+    margin-left: 25%;
+    width: 200px;
+    padding: 10px 0;
+    border: 1px solid rgba(185,20,80,255);
+    border-radius: 5px; 
+}
+
+.row_3 {
+    padding: 30px 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.row_3 button {
+    font-weight: bold;
+    color: rgba(185,20,80,255);
+    background-color: lightgrey;
+    border: 1px solid rgba(185,20,80,255);
+}
+
+.row_2 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.row_3 h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 30%;
+}
+
+#section_2 {
+    display: none;
+}
+
+#name_box {
+    width: 200px;
+    height: 187px;
+    /* border: 1px solid green; */
+}
+
+#section_2 .row_1 {
+    margin-top: 30px ;
+}
+
+#section_2 .sub_row_1 h4 {
+    font-weight: bold;
+    color: black;
+}
+
+#section_2 .row_2 {
+    padding: 0 5px;
+}
+
+#section_2 .row_2 h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#section_2 .sub_row_2 .col-xs-3 {
+    margin-top: 50px;
+}
+
+#section_2 .col-xs-4, #section_2 .col-xs-8 {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#section_2 .col-xs-8 {
+    height: 272px;
+    border-right: none;
+}
+
+#section_2 .col-xs-4 {
+    background-color: rgba(128, 128, 128, 0.712);
+}
+
+#section_2 .row_3 {
+    padding: 0 20px;
+}
